@@ -1,0 +1,5 @@
+oxford5k_data/images/
+*.npy
+venv/
+*.h5
+*.jar
