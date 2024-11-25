@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Landmark Recognition Web App</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card p-5 shadow-lg bg-light rounded">
+            <h1 class="text-center mb-4">Landmark Recognition Web App</h1>
+            <div class="input-group mb-3 d-flex justify-content-center">
+                <input type="file" id="imageInput" class="form-control-file mr-3">
+                <button class="btn btn-primary btn-lg" onclick="uploadImage()">Upload</button>
+            </div>
+
+            <div id="result" class="mt-5">
+                <h3 id="landmarkName" class="text-center"></h3>
+                <div id="similarImages" class="d-flex justify-content-center mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

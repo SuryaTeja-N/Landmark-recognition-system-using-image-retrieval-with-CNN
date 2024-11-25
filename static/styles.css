@@ -1,0 +1,58 @@
+body {
+    background-color: #e9ecef; /* Light gray for a modern and subtle feel */
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #343a40;
+}
+
+#landmarkName {
+    text-align: center;
+    font-weight: bold;
+    color: #007bff; /* Changed to a blue shade for emphasis */
+    margin-top: 30px;
+}
+
+#similarImages img {
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+#similarImages img:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+button.btn-primary {
+    background-color: #17a2b8; /* Cyan color to make it visually distinct */
+    border-color: #17a2b8;
+}
+
+button.btn-primary:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+button:focus {
+    outline: none; /* Removes the blue outline around the button */
+}
+
+.input-group {
+    max-width: 500px;
+    margin: 0 auto; /* Center the input area */
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
