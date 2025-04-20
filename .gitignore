@@ -3,3 +3,4 @@ oxford5k_data/images/
 venv/
 *.h5
 *.jar
+*:Zone.Identifier
